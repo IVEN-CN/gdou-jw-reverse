@@ -13,8 +13,8 @@
 
 ### 报告方式
 
-1. **GitHub Security Advisories**: 使用 [Private vulnerability reporting](https://github.com/yourusername/gdou-jw-reverse/security/advisories/new)
-2. **邮件**: 发送邮件至 `your-email@example.com`，标题前缀 `[SECURITY]`
+1. **GitHub Security Advisories**: 使用 [Private vulnerability reporting](https://github.com/IVEN-CN/gdou-jw-reverse/security/advisories/new)
+2. **邮件**: 发送邮件至 `hyf_iven@outlook.com`，标题前缀 `[SECURITY]`
 
 ### 报告内容
 

@@ -86,5 +86,6 @@ feat(schedule): 支持查询指定周次的课表
 
 ## 联系方式
 
-- GitHub Issues: [项目 Issues 页面](https://github.com/yourusername/gdou-jw-reverse/issues)
+- GitHub Issues: [项目 Issues 页面](https://github.com/IVEN-CN/gdou-jw-reverse/issues)
+- 安全漏洞报告: `hyf_iven@outlook.com`（标题前缀 `[SECURITY]`）
 - 博客: [正方教务系统逆向实战](https://yourblog.com)
