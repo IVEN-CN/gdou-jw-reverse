@@ -12,7 +12,7 @@ dependencies = [
 ]
 
 [project.scripts]
-gdou-jw = "gdou_jw.__main__:main"
+gdou-jw = "gdou_jw.main:main"
 
 [tool.uv]
 package = true

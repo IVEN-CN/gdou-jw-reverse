@@ -1,4 +1,4 @@
-"""命令行入口"""
+"""命令行入口 - 仅负责读取配置和调用查询"""
 
 import os
 from dotenv import load_dotenv
