@@ -1,8 +1,7 @@
 [project]
 name = "gdou-jw-reverse"
 version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
+description = "广东海洋大学教务系统逆向 - 登录+课表+考试+成绩查询"
 requires-python = ">=3.12"
 dependencies = [
     "numpy>=2.4.6",
@@ -11,3 +10,16 @@ dependencies = [
     "python-dotenv>=1.2.2",
     "requests>=2.34.2",
 ]
+
+[project.scripts]
+gdou-jw = "gdou_jw.__main__:main"
+
+[tool.uv]
+package = true
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/gdou_jw"]
