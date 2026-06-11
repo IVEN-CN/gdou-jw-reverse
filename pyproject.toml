@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "广东海洋大学教务系统逆向 - 登录+课表+考试+成绩查询"
 requires-python = ">=3.12"
 dependencies = [
+    "click>=8.4.1",
     "numpy>=2.4.6",
     "opencv-python>=4.13.0.92",
     "pycryptodome>=3.23.0",
@@ -12,7 +13,10 @@ dependencies = [
 ]
 
 [project.scripts]
-gdou-jw = "gdou_jw.main:main"
+gdou-jw = "gdou_jw.cli:main"
+courses = "gdou_jw.cli:courses"
+exams = "gdou_jw.cli:exams"
+grades = "gdou_jw.cli:grades"
 
 [tool.uv]
 package = true
